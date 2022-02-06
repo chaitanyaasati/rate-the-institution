@@ -1,0 +1,24 @@
+.institution-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.institution-info_sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.institution-info__avatar{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 50%;
+    /* background-image: url("https://lh5.googleusercontent.com/p/AF1QipMTgaMBLZJXSXayWyXFVK3J9nTlg9MDm4gYHT9g=w1080-k-no"); */
+    background-size: cover;
+}
+
+.institution-info__courses{
+    margin-top: 6px;
+}

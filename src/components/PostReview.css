@@ -1,0 +1,48 @@
+.postreview{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FEFEFE;
+}
+
+.postreview__owner{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.postreview__content{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    overflow: auto;
+    min-height: 100px;
+}
+
+.postreview__content[contenteditable]{
+    border: 1px solid black;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.postreview__post{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.postreview__post__button{
+    background-color: lightskyblue;
+    padding: 8px 10px;
+    width: 80px;
+    border: none;
+}

@@ -1,0 +1,26 @@
+.review{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    background-color: #FEFEFE;
+}
+
+.review__owner{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.review__content{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+}
+
+.review__feedback__like{
+    font-size: 13px;
+    margin-right: 8px;
+    cursor: pointer;
+}
