@@ -14,9 +14,6 @@
 }
 
 .postreview__content{
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 15px;
@@ -25,14 +22,7 @@
     resize: none;
     border: none;
     outline: none;
-    overflow: auto;
-    min-height: 100px;
-}
-
-.postreview__content[contenteditable]{
-    border: 1px solid black;
-    max-height: 200px;
-    overflow: auto;
+    /* min-height: 100px; */
 }
 
 .postreview__post{

@@ -31,7 +31,7 @@ const PostReview = () =>  {
         <div className="postreview__owner">
             {user}
         </div>
-        <textarea contenteditable className="postreview__content" placeholder="Describe yourself here..." value={contentz} onChange={textareaUpdate}>
+        <textarea className="postreview__content" placeholder="Describe yourself here..." value={contentz} onChange={textareaUpdate}>
            
         </textarea>
         <div className="postreview__post">

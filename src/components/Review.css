@@ -17,6 +17,7 @@
     font-weight: 400;
     font-size: 15px;
     color: rgb(5, 5, 5);
+    white-space: pre-wrap;
 }
 
 .review__feedback__like{
