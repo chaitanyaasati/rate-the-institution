@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/institution" element={
+        <Route path="/" element={
           <div className="InstitutionPage">
             <Navbar></Navbar>
             <div className="institution">
@@ -45,7 +45,7 @@ function App() {
           </div>
         }>
         </Route>
-        <Route path="/">
+        <Route path="/institution">
 
         </Route>
       </Routes>
